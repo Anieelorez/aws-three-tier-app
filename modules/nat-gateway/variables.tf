@@ -9,7 +9,3 @@ variable "private_app_subnet_az2_id" {}
 variable "private_db_subnet_az2_id" {}
 variable "private_app_subnet_az3_id" {}
 variable "private_db_subnet_az3_id" {}
-
-
-  
-
