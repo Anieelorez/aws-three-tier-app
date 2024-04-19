@@ -1,5 +1,6 @@
 variable "region" {}
 variable "vpc_project_name" {}
+variable "project_name" {}
 
 #vpc  variable
 variable "vpc_cidr" {}
