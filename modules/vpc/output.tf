@@ -5,9 +5,12 @@ output "region" {
 
 # export the project name
 output "project_name" {
-  value = var.vpc_project_name
+  value = var.project_name
 }
 
+output "vpc_project_name" {
+  value = var.vpc_project_name  
+}
 # export the vpc id
 output "vpc_id" {
   value = aws_vpc.vpc_project.id
