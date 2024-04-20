@@ -32,8 +32,8 @@ resource "aws_security_group" "alb_security_group" {
 }
 
 # create security group for the container
-resource "aws_security_group" "ecs_security_group" {
-  name        = "ecs security group"
+resource "aws_security_group" "ec2_security_group" {
+  name        = "ec2 security group"
   description = "enable http/https access on port 80/443 via alb sg"
   vpc_id      = var.vpc_id
 
